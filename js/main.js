@@ -24,7 +24,6 @@ document.querySelector('#cart-btn').onclick = () => {
     cartItem.classList.toggle('active');
 }
 
-
 window.onscroll = () =>{
     navbar.classList.remove('active');
     searchForm.classList.remove('active');
